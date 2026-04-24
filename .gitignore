@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# Generated outputs
+praat_results.csv
+results.csv
+*_results.csv
+*.log
+*.tmp
