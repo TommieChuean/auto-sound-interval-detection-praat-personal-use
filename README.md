@@ -6,9 +6,13 @@
 
 脚本会输出每个 trial 的 click onset、speech onset，以及两者之间的间隔。当前主版本来自测试效果较好的 `test_3.praat` 思路，并改成了可处理单个音频或整个文件夹的批处理脚本。
 
+<<<<<<< HEAD
 ## 当前版本
 
 主检测逻辑是纯 Praat amplitude 阈值方案：
+=======
+## 适用场景
+>>>>>>> ec8efe0f3aadbbd0331fb59689e4c11639bb936b
 
 1. 读取音频后计算全局最大振幅。
 2. 用相对振幅阈值检测短促 click，并向前回溯到 click onset。
